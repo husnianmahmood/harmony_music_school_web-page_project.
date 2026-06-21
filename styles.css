@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f6f2ec;
+    color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.site-header {
+    background: linear-gradient(rgba(15, 15, 15, 0.64), rgba(15, 15, 15, 0.68)), url("images/piano.jpg.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: 520px;
+}
+
+.navbar {
+    align-items: center;
+    background: rgba(17, 17, 17, 0.92);
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 7%;
+}
+
+.logo {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+.nav-links a {
+    border-bottom: 2px solid transparent;
+    font-size: 0.98rem;
+    padding-bottom: 4px;
+}
+
+.nav-links a:hover {
+    border-color: #f2a516;
+    color: #f2a516;
+}
+
+.hero {
+    max-width: 760px;
+    padding: 110px 7% 80px;
+}
+
+.hero h1 {
+    font-size: 3.4rem;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 28px;
+    max-width: 620px;
+}
+
+.primary-button,
+.text-link {
+    background: #f2a516;
+    border-radius: 6px;
+    color: #171717;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px 18px;
+}
+
+.section {
+    padding: 64px 7%;
+}
+
+.intro {
+    background: white;
+    text-align: center;
+}
+
+.intro p,
+.section-heading p {
+    color: #575757;
+    margin: 10px auto 0;
+    max-width: 680px;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-heading h2,
+.intro h2,
+.contact-box h2,
+.about-box h2 {
+    font-size: 2rem;
+}
+
+.course-grid {
+    display: grid;
+    gap: 28px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.course-card {
+    align-items: end;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #f2a516;
+    border-radius: 8px;
+    display: flex;
+    min-height: 360px;
+    overflow: hidden;
+}
+
+.piano {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.58)), url("images/piano.jpg.jpeg");
+}
+
+.guitar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.58)), url("images/guitar.jpg.jpeg");
+}
+
+.ear-training {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.58)), url("images/Ear.jpg.jpeg");
+}
+
+.sight-reading {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.58)), url("images/Sight.jpg.jpeg");
+}
+
+.course-content {
+    background: rgba(17, 17, 17, 0.78);
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.course-content h3 {
+    color: #f2a516;
+    font-size: 1.45rem;
+    margin-bottom: 6px;
+}
+
+.fees {
+    background: white;
+}
+
+.fee-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 24px;
+}
+
+.fee-card,
+.contact-box,
+.about-box {
+    background: #fffaf2;
+    border: 2px solid #f2a516;
+    border-radius: 8px;
+    padding: 28px;
+}
+
+.fee-card h3 {
+    margin-bottom: 12px;
+}
+
+.price {
+    color: #b56f00;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.price span {
+    color: #555;
+    font-size: 1rem;
+}
+
+.contact-about {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.site-footer {
+    background: #111;
+    border-top: 6px solid #f2a516;
+    color: white;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 38px 7% 20px;
+}
+
+.footer-column {
+    border: 1px solid #444;
+    border-radius: 8px;
+    min-height: 120px;
+    padding: 18px;
+}
+
+.footer-column h3 {
+    color: #f2a516;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.footer-column a:hover {
+    color: #f2a516;
+}
+
+.copyright {
+    border-top: 1px solid #444;
+    color: #d6d6d6;
+    grid-column: 1 / -1;
+    padding-top: 18px;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .navbar,
+    .contact-about,
+    .site-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        display: grid;
+        gap: 14px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.45rem;
+    }
+
+    .course-grid,
+    .fee-grid {
+        grid-template-columns: 1fr;
+    }
+}

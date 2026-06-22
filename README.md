@@ -14,3 +14,4 @@ This project was successfully designed, coded, and deployed through a collaborat
 *   **Husnian Mahmood** — [@husnianmahmood](https://github.com/husnianmahmood)
 *   **Abdullah Rauf** — [@abdullah786rauf-eng](https://github.com/abdullah786rauf-eng)
 *   **Shahan Khan** — [@AlesundGresiek](https://github.com/AlesundGresiek)
+*   **Siraj-** — [realsiraj369-spec](https://github.com/realsiraj369-spec)

@@ -1,6 +1,6 @@
 # Harmony Music School Website
-[![HTML](https://shields.io)](https://whatwg.org)
-[![CSS](https://shields.io)](https://w3.org)
+![HTML5](https://img.shields.io/badge/Language-HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/Language-CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 ## 📌 Project Overview

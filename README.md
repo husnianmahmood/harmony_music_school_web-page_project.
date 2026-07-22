@@ -1,4 +1,7 @@
 # Harmony Music School Website
+[![HTML](https://shields.io)](https://whatwg.org)
+[![CSS](https://shields.io)](https://w3.org)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 ## 📌 Project Overview
 The Harmony Music School Web Page is a responsive, single-page website developed as a core curriculum assignment for our AICT Lab subject. Built entirely from scratch using HTML5 and CSS3, the project focuses on establishing a clean visual identity, optimal layout structure, and intuitive user feedback for a modern music academy landing page.

@@ -12,6 +12,7 @@
 
 [Project Overview](#-project-overview) •
 [Key Features](#%EF%B8%8F-key-design--implementation-features) •
+[Learning Outcomes](#-learning-outcomes) •
 [Technologies Used](#-technologies-used) •
 [Team Members](#-aict-lab-project-team) •
 [License](#-license)
@@ -29,6 +30,16 @@ The **Harmony Music School Web Page** is a responsive, single-page website devel
 * **Semantic CSS Content Blocks:** Divided the layout into clear functional zones (Hero, Courses, Contact) using custom padding, margins, and background contrasts to build a clean visual hierarchy[cite: 1].
 * **Intuitive UI Feedback:** Applied `cursor: pointer;` to all interactive elements and buttons, ensuring instant visual feedback and a responsive, clickable feel on hover[cite: 1].
 * **Seamless Hyperlinks:** Integrated functional anchor tags to link the top navigation directly to matching content blocks for fluid, single-page navigation[cite: 1].
+
+---
+
+## 🧠 Learning Outcomes
+
+Developing this web page provided hands-on experience with modern front-end fundamentals[cite: 1]:
+* **Semantic Layout Architecture:** Mastering HTML5 structural elements to improve code readability and web accessibility[cite: 1].
+* **Visual Hierarchy & CSS Styling:** Utilizing custom padding, margins, and color contrast to create balanced layouts[cite: 1].
+* **User Experience & Feedback:** Implementing micro-interactions and interactive hover effects to improve user engagement[cite: 1].
+* **Single-Page Navigation:** Implementing clean anchor linking structures for smooth section jumping[cite: 1].
 
 ---
 
